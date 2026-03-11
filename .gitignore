@@ -1,0 +1,11 @@
+# Obsidian internal files
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache/
+.obsidian/plugins/obsidian-git/
+
+# macOS system files
+.DS_Store
+
+# Large assets (Optional: if your Resources folder gets >100MB, uncomment the line below)
+# Resources/

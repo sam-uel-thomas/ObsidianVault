@@ -1,0 +1,26 @@
+{
+  "template_folder": "Templates",
+  "trigger_on_new_file": true,
+  "folder_templates": [
+    {
+      "folder": "01-Projects",
+      "template": "Templates/Project Hub.md"
+    },
+    {
+      "folder": "03-Daily",
+      "template": "Templates/Daily Note.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "copy_content": false,
+  "show_notifications": true,
+  "template_hotkey": [
+    {
+      "id": "insert-template",
+      "name": "Insert template",
+      "hotkey": "Alt+E"
+    }
+  ],
+  "user_scripts_folder": "",
+  "exclude_folders": []
+}
