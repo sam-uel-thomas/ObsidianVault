@@ -35,20 +35,26 @@ _~30 mins total, do whenever_
 
 ## Tuesday 17th March — Core SSG Refactor
 
-### Session 1 — Build Script & Logic (1.5 hrs)
+### Session 1 — Build Script & Logic (2.5 hrs)
 
+- [ ] **Client Intake:** Review and integrate any changes identified by the client during the "Feedback Window" (March 11th–17th).
 - [ ] Refactor `sanity-integration.js` so all render functions return HTML strings
 - [ ] Write `scripts/build.js` — Node script to fetch from Sanity and write to `dist/`
+- [ ] **SEO Essentials:** Update `build.js` to generate `sitemap.xml` and `robots.txt`.
+- [ ] **Redirects:** Create `_redirects` file to map old Squarespace paths (e.g., `/contact-us` → `/contact`).
+- [ ] **Newsletter UI:** Build the Mailchimp subscription section in the footer/contact page.
 - [ ] Run build script locally and verify `dist/` folder output
 
 ---
 
 ## Wednesday 18th March — Deployment & Automation
 
-### Session 1 — Cloudflare Pages & Webhook (1.5 hrs)
+### Session 1 — Cloudflare Pages & Webhook (2 hrs)
 
 - [ ] Connect GitHub repo to Cloudflare Pages
+- [ ] **Secrets:** Add Sanity & Mailchimp API keys/Project IDs to Cloudflare Environment Variables.
 - [ ] Set build command: `node scripts/build.js` & publish directory: `dist/`
+- [ ] **Forms & Mailchimp:** Connect the Contact Form and Newsletter section (using Formspree or Cloudflare Functions).
 - [ ] **Private Preview:** Confirm site is live on `*.pages.dev` URL (Old site is still live on the main domain)
 - [ ] Set up Sanity Webhook (API → Webhooks) using Cloudflare's build hook URL
 - [ ] Test a Sanity change and confirm the `*.pages.dev` site updates automatically
